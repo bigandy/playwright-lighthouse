@@ -1,0 +1,19 @@
+{
+  "name": "playwright-lighthouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *.test.js --timeout 60000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.2.0",
+    "lighthouse": "6.5.0",
+    "mocha": "8.2.1",
+    "playwright": "1.8.0",
+    "slack-node": "0.1.8"
+  }
+}
